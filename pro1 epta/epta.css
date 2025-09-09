@@ -1,0 +1,157 @@
+body{
+    color: greenyellow;
+    background-color: rgb(168, 232, 225);
+    position: relative;
+    left: 0;
+    top: 87px;
+    left: 0;
+    right: 0;
+    padding-bottom: 15px;
+}
+h1{
+    border: 4px solid green;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    text-align: left;
+}
+header{
+    display: block;
+    background-color: rgba(239, 239, 5, 0.885);
+    color: red;
+    padding: 10px;
+    margin: 0;
+    text-size-adjust: 40px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+h2{
+    text-align: center;
+    color: #494949;
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+h4{
+    display: block;
+}
+.banner img{
+   max-width: 100%;
+   position: relative;
+   left: 0;
+   top: 5px;
+   left: 0;
+   right: 0;
+   padding-bottom: 15px;
+   
+}
+div li{
+    border-radius: 150px;
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+}
+div li img{
+    border-radius: 150px;
+    display: inline-block;
+    margin: auto;
+}
+
+.logo{
+    margin-top: 5px;
+    text-align: left;
+}
+body ol{
+    position:relative;
+    left: 30px;
+    padding: 10px;
+    color: red;
+    display: block;
+    border: 2px  crimson;
+}
+
+
+section ul img{
+    border-radius: 80px 0px;
+    display: inline-block;
+    padding: 10px;
+    margin: auto;
+
+}
+button{
+    color: black;
+    background-color: pink;
+    background: -moz-linear-gradient(top, green 0%, yellow 100%);
+    background: -webkit-linear-gradient(top, green 0%, yellow 100%);
+    background: linear-gradient(top, green 0%, yellow 100%);
+}
+a{
+    display: inline;
+    text-align: center;
+    border: 1px dotted grey;
+    margin: 15px;
+    padding: 10px;
+    outline: none;
+}
+footer{
+    color: white;
+    background-color: black;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+   letter-spacing: 2px;
+   line-height: 27px;
+}
+
+.fullset{
+    border: 2px solid #001166;
+    padding: 15px;
+    display: inline-block;
+    column-count: 2;
+}
+.accessories{
+    border: 2px solid #001166;
+    padding: 15px;
+    display: inline-block;
+    column-count: 3;
+}
+.refill{
+    border: 2px solid #001166;
+    padding: 15px;
+    display: inline-block;
+    column-count: 2;
+
+}
+
+
+
+/* pseudo classes */
+ul li:hover{
+    border: 3px dashed crimson;
+    size-adjust: 700px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 0px 80px;
+}
+a:hover{
+    color: white;
+    padding: 15px;
+    outline: none;
+    text-decoration: none;
+    background-color: grey;
+    background: -moz-linear-gradient(top, red 0%, yellow 100%)
+    background: -webkit-linear-gradient(top, red 0%, yellow 100%)
+    background: linear-gradient(top, red 0%, yellow 100%)
+    
+}
+button:hover{
+    color: red;
+    background-color: pink;
+    background: -moz-linear-gradient(top,yellow 0%, green 100%);
+    background: -webkit-linear-gradient(top,yellow 0%, green 100%);
+    background: linear-gradient(top, yellow 0%, green 100%);
+}
