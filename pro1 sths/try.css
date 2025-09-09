@@ -1,0 +1,8 @@
+table{
+    outline: 1px solid crimson;
+    margin: auto;
+}
+td,th{
+    outline: 1px solid crimson;
+    text-align: center;
+}
